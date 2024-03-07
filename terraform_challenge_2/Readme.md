@@ -2,12 +2,14 @@
 
 ## Install Terraform V1.1.5
 
-`sudo apt-get update`
-`sudo apt install wget`
-`sudo apt install zip`
-`wget https://releases.hashicorp.com/terraform/1.1.5/terraform_1.1.5_linux_amd64.zip`
-`unzip terraform_1.1.5_linux_amd64.zip`
-`cp terraform /usr/bin/terraform`
+```bash
+sudo apt-get update
+sudo apt install wget
+sudo apt install zip
+wget https://releases.hashicorp.com/terraform/1.1.5/terraform_1.1.5_linux_amd64.zip
+unzip terraform_1.1.5_linux_amd64.zip
+cp terraform /usr/bin/terraform
+```
 
 ## Create provider.tf
 
